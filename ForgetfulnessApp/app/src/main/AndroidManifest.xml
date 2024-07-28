@@ -98,7 +98,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAZMsbmM0dBJeKi0dyh9tjMxp_gAexmjMA" />
+            android:value="" />
 
         <activity android:name=".CreateAccountEmail" />
         <activity android:name=".HomeScreen" />
