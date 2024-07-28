@@ -1,0 +1,108 @@
+<RelativeLayout
+    android:id="@+id/widgetLastReminder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shuffle_background"
+    android:padding="@dimen/widget_margin">
+
+    <!-- CardView'ı temsil eden RelativeLayout -->
+    <RelativeLayout
+        android:id="@+id/cardViewMyLastReminder"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#272E24"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <!-- Image ve Text için iç RelativeLayout -->
+        <RelativeLayout
+            android:id="@+id/card1DENEME"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:clipToPadding="false"
+            android:clipChildren="false">
+
+            <!-- ImageView - iconVoiceSpeech -->
+            <ImageView
+                android:id="@+id/iconVoiceSpeech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconoir_voice"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="top|end" />
+
+            <!-- ImageView - iconEditPencil -->
+            <ImageView
+                android:id="@+id/iconEditPencil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_boxs_edit_pen"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="end|bottom" />
+
+            <!-- ImageView - imageViewWidget -->
+            <ImageView
+                android:id="@+id/imageViewWidget"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/parkinglot" />
+        </RelativeLayout>
+
+        <!-- TextView - textTitleWidget -->
+        <TextView
+            android:id="@+id/textTitleWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card1DENEME"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:text="I parked my car in the parking lot"
+            android:fontFamily="@font/poppins_semibold" />
+
+        <!-- TextView - descWidget -->
+        <TextView
+            android:id="@+id/descWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTitleWidget"
+            android:layout_marginStart="20dp"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Block B7-17th row" />
+
+        <!-- RelativeLayout - completeButton -->
+        <RelativeLayout
+            android:id="@+id/completeButton"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/descWidget"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/complete_main_green_box_bg">
+
+            <!-- TextView - textCompleteStatusWidget -->
+            <TextView
+                android:id="@+id/textCompleteStatusWidget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:textSize="12sp"
+                android:textColor="#322B1D"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

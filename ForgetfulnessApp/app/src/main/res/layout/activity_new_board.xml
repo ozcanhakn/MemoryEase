@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context=".Game.NewBoardActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/cellGroupFragment"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="0"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/cellGroupFragment2"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="1"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/cellGroupFragment3"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="2"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/cellGroupFragment4"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="3"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/cellGroupFragment5"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="4"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/cellGroupFragment6"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="5"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="117dp">
+
+            <fragment
+                android:id="@+id/cellGroupFragment7"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="6"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/cellGroupFragment8"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="7"
+                android:layout_weight="1" />
+
+            <fragment
+                android:id="@+id/cellGroupFragment9"
+                android:name="app.forget.forgetfulnessapp.CellGroupFragment"
+                android:layout_width="92dp"
+                android:layout_height="106dp"
+                android:tag="8"
+                android:layout_weight="1" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onGoBackButtonClicked"
+        android:text="@string/go_back_button"
+        android:background="@drawable/shuffle_background"
+        android:textColor="#000"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onContinueButtonClicked"
+        android:text="@string/continue_new_board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shuffle_background"
+        android:textColor="#000"
+        android:fontFamily="@font/poppins_medium"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

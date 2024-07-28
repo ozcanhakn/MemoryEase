@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".FAQs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/backFaqstoSettings"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faqstitle"
+            android:textColor="@color/textcolor"
+            android:textSize="23sp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/br_firma_medium"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutFAQsOperation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeHowitWorks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/light_orange_bg_box_outline">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howitworks"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:textColor="#F3A672"
+                    android:textSize="16sp"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeFeatureReq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/light_orange_bg_box_outline">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F3A672"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:text="@string/featuresreq"
+                    android:textSize="16sp"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutFAQs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/linearLayoutFAQsOperation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeWidgets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/light_orange_bg_box_outline">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/widgetsfaqs"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:textColor="#F3A672"
+                    android:textSize="16sp"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutFAQsBillings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/linearLayoutFAQs1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeBillings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/light_orange_bg_box_outline">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/upgradesbillings"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:textColor="#F3A672"
+                    android:textSize="16sp"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeCanceling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/light_orange_bg_box_outline">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F3A672"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:text="@string/cancellings"
+                    android:textSize="16sp"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textHowitWorks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/linearLayoutFAQsBillings"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp"
+            android:text="@string/howitworks"
+            android:fontFamily="@font/br_firma_bold"
+            android:textColor="@color/textcolor"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionHowDoISetAnReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bluebox_question"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHowitWorks">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howcanbylocation"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="10dp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersHowDoISetReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orangebox_question"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionHowDoISetAnReminder">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/answerhowcanbylocation"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="20dp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionOwnCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersHowDoISetReminder"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/questionmyselfcategory"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersOwnCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionOwnCategory"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/answermyselfcategory"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionAccessData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersOwnCategory"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/questionaccessdata"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersAccessData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionAccessData"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/answeraccessdata"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textFeatureReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/featuresreq"
+            android:textColor="@color/textcolor"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersAccessData"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/br_firma_bold"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionFeaturesOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textFeatureReq"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/questionmyselfvoice"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersOneFeature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionFeaturesOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/answermyselfvoice"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionFeaturesTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersOneFeature"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/questionforum"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersTwoFeature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionFeaturesTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/answersforum"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionFeaturesThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersTwoFeature"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/reminderbylocation_question"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersThreeFeature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionFeaturesThree"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/reminderbylocation_answer"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textWidgetReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textwidget"
+            android:textColor="@color/textcolor"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersThreeFeature"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/br_firma_bold"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textWidgetReq"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/widgetquestion1"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersWidget1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionWidget"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/widgetanswers1"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textupgradebillingReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textupgradebilling"
+            android:textColor="@color/textcolor"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersWidget1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/br_firma_bold"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionUB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textupgradebillingReq"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/upgradeandbillingquestion1"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersUB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionUB1"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/upgradeandbillinganswers1"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionUB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersUB1"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/upgradeandbillingquestion2"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersUB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionUB2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/upgradeandbillinganswers2"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textCancellingReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancellings"
+            android:textColor="@color/textcolor"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersUB2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/br_firma_bold"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeQuestionCancelling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textCancellingReq"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bluebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/howcancel1question"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAnswersUB3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/relativeQuestionCancelling"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/orangebox_question"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/upgradeandbillinganswers3"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:layout_constraintTop_toBottomOf="@+id/relativeAnswersUB3"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    tools:context=".StatisticFragment">
+
+    <TextView
+        android:id="@+id/textStatistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistic"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="@font/br_firma_semibold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollViewStatistic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/statisticUpperFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:id="@+id/imageArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/green_arrow_back"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/imageArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:rotation="180"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/green_arrow_back"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="63dp"
+                    android:layout_marginEnd="63dp"
+                    app:layout_constraintStart_toEndOf="@id/imageArrowLeft"
+                    app:layout_constraintEnd_toStartOf="@id/imageArrowRight"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeToday"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/statistic_box_bg_upper">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="#322B1D"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/br_firma_semibold"
+                            android:text="@string/week"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/relativeWeek"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/statistic_box_bg_upper">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="#322B1D"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/br_firma_semibold"
+                            android:text="@string/Month"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/relativeMonth"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/statistic_box_bg_upper">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="#322B1D"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/br_firma_semibold"
+                            android:text="@string/Annual"/>
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/containerTotalNumberOfAlarmSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/outlined_box_bg"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/statisticUpperFilter">
+
+                <TextView
+                    android:id="@+id/totalSetReminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/totalnumberreminder"
+                    android:fontFamily="@font/br_firma_semibold"
+                    />
+
+                <TextView
+                    android:id="@+id/totalSetReminderNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:text=""
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/br_firma_bold"
+               />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearHowManyAlarmWhichCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/outlined_box_bg"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/containerTotalNumberOfAlarmSet">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howmanyalarm"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/br_firma_semibold"/>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutFinance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/finance"
+                        android:fontFamily="@font/sofia_pro_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountFinance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/sofia_pro_medium"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutShopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/Shopping"
+                        android:fontFamily="@font/br_firma_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountShopping"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/br_firma_medium"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutEducation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/education"
+                        android:fontFamily="@font/sofia_pro_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountEducation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/sofia_pro_medium"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutPersonal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/Personal"
+                        android:fontFamily="@font/br_firma_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountPersonal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/br_firma_medium"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutSocial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/Social"
+                        android:fontFamily="@font/sofia_pro_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountSocial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/sofia_pro_medium"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutJob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/Job"
+                        android:fontFamily="@font/br_firma_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountJob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/br_firma_medium"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linerLayoutOther"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="@string/Other"
+                        android:fontFamily="@font/sofia_pro_medium"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountOther"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:text="100"
+                        android:fontFamily="@font/sofia_pro_medium"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textStatisticBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bydayweek"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_semibold"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearHowManyAlarmWhichCategories" />
+
+            <ImageView
+                android:id="@+id/questionByOfTheWeek"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/question_icon_statistic"
+                app:layout_constraintTop_toBottomOf="@id/linearHowManyAlarmWhichCategories"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+            
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/statisticBarWeek"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:layout_constraintTop_toBottomOf="@id/textStatisticBar"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textStatisticBarHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/byhourday"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_semibold"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintTop_toBottomOf="@id/statisticBarWeek"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/questionByOfTheHours"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/question_icon_statistic"
+                app:layout_constraintTop_toBottomOf="@id/statisticBarWeek"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/statisticBarHour"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textStatisticBarHour" />
+
+            <TextView
+                android:id="@+id/textStatisticBarRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dybyregular"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_semibold"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintTop_toBottomOf="@id/statisticBarHour"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/statisticBarRegular"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textStatisticBarRegular"
+                />
+
+
+            <TextView
+                android:id="@+id/deneme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleeptracking"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_semibold"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintTop_toBottomOf="@id/statisticBarRegular"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/denemeBar"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/deneme"
+                />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintGameTopScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@id/denemeBar"
+                app:layout_constraintStart_toStartOf="parent"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/outlined_box_bg"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linearShoppingGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_gravity="center_vertical"
+                        android:text="Shopping Game Top Score:"/>
+
+                    <TextView
+                        android:id="@+id/textShoppingGameTopScoreStatistic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearObjectGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/linearShoppingGame"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_gravity="center_vertical"
+                        android:text="Object Game Top Score:"/>
+
+                    <TextView
+                        android:id="@+id/textShoppingObjectTopScoreStatistic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:layout_constraintTop_toBottomOf="@id/constraintGameTopScore"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

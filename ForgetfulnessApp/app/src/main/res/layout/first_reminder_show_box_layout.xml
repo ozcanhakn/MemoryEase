@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardFirstReminder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="450dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardMaxElevation="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textCongrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/heaven"
+            android:textColor="@color/blackColor"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="SUPER!"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/textFirstReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/heaven"
+            android:textColor="@color/blackColor"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:text="Ilk Hatirlaticini Kurdun"
+            app:layout_constraintTop_toBottomOf="@+id/textCongrate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <ImageView
+            android:id="@+id/imageLogoPart1FirstReminderCong"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/logo220"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <ImageView
+            android:id="@+id/imageLogoPart2FirstReminderCong"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:visibility="invisible"
+            android:src="@drawable/logo220"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageLogoPart3FirstReminderCong"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:visibility="invisible"
+            android:src="@drawable/logo220"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <ImageView
+            android:id="@+id/imageLogoFirstReminderCong"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/logo220"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <TextView
+            android:id="@+id/textMemoryEase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/imageLogoFirstReminderCong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="14sp"
+            android:fontFamily="@font/br_firma_regular"
+            android:textColor="@color/blackColor"
+            android:text="MemoryEase"
+            />
+
+        <TextView
+            android:id="@+id/textThankYouRespect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/okeyButtonFirstReminder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/br_firma_regular"
+            android:textColor="@color/blackColor"
+            android:text="Seni aramızda görmekten\ngurur duyuyoruz"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/okeyButtonFirstReminder"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/continue_button_createaccount_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Tamam"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:layout_centerInParent="true"/>
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

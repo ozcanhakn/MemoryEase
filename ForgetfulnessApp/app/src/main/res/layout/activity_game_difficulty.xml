@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Game.GameDifficultyActivity">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_difficulty"
+        android:textColor="@color/textcolor"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+     />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView10">
+
+        <RadioButton
+            android:id="@+id/radioButtonEasy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/continue_button_createaccount_bg"
+            android:onClick="onDifficultyRadioButtonsClicked"
+            android:text="@string/difficulty_easy"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/textcolor"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNormal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/continue_button_createaccount_bg"
+            android:onClick="onDifficultyRadioButtonsClicked"
+            android:textColor="@color/textcolor"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/difficulty_normal" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHard"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/continue_button_createaccount_bg"
+            android:textColor="@color/textcolor"
+            android:fontFamily="@font/poppins_regular"
+            android:onClick="onDifficultyRadioButtonsClicked"
+            android:text="@string/difficulty_hard" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shuffle_background"
+        android:onClick="onStartGameButtonClicked"
+        android:text="@string/start_game"
+        android:textColor="#000"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onGoBackButtonClicked"
+        android:text="@string/go_back_button"
+        android:textColor="#000"
+        android:fontFamily="@font/poppins_medium"
+        android:background="@drawable/shuffle_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

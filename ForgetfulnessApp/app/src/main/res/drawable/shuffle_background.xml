@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+
+            <corners android:radius="10dp"/>
+            <gradient
+                android:startColor="#FFF6E0"
+                android:centerColor="#FFF6E0"
+                android:endColor="#272829"
+                android:angle="45"/>
+        </shape>
+    </item>
+
+    <!-- Sağ alt köşeden başlayan ikinci renk -->
+    <item>
+        <shape>
+            <corners android:radius="10dp"/>
+            <gradient
+                android:startColor="#FFF6E0"
+                android:centerColor="#FFF6E0"
+                android:endColor="#61677A"
+                android:angle="225"/>
+        </shape>
+    </item>
+
+
+
+</layer-list>

@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/grid_item_border"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewGridItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:translationZ="90dp"
+        android:fontFamily="@font/br_firma_medium"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>

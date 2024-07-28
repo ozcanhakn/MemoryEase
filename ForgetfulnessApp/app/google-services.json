@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "505784942919",
+    "firebase_url": "https://memoryease-default-rtdb.firebaseio.com",
+    "project_id": "memoryease",
+    "storage_bucket": "memoryease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505784942919:android:c8a9f0aea0e00e90cc0c62",
+        "android_client_info": {
+          "package_name": "app.forget.forgetfulnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505784942919-0ki1p5e7s8nsqh3kmnu4fb0bmsi1t6rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.forget.forgetfulnessapp",
+            "certificate_hash": "63e00d22a1a407fc958479357071ca1d2f2ad7ab"
+          }
+        },
+        {
+          "client_id": "505784942919-s5qd0551kjmaqk4j4egjmhe1qeijtvs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXHgbkusxD9uEfzeNWjlzMKWAzY5sgesI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505784942919-s5qd0551kjmaqk4j4egjmhe1qeijtvs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

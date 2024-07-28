@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dialogRemindUpperNavi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <ImageView
+                android:id="@+id/dialogCancelButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/arrowleftwh"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView
+                android:id="@+id/textRemindBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:fontFamily="@font/br_firma_medium"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/billreminder"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textSelectedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/br_firma_medium"
+            android:textColor="@color/white"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialogRemindUpperNavi"/>
+
+        <TextView
+            android:id="@+id/textTitleBillReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/br_firma_medium"
+            android:textColor="@color/white"
+            android:text="@string/billtype"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textSelectedDate"/>
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/br_firma_regular"
+            android:background="@drawable/mail_support_box_bg"
+            app:layout_constraintTop_toBottomOf="@+id/textTitleBillReminder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textTDescBillReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/br_firma_medium"
+            android:textColor="@color/white"
+            android:text="@string/description"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etTitle"/>
+
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:paddingStart="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/br_firma_regular"
+            android:background="@drawable/mail_support_box_bg"
+            app:layout_constraintTop_toBottomOf="@+id/textTDescBillReminder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/textBillPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/br_firma_medium"
+            android:textColor="@color/white"
+            android:text="@string/billfee"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etDesc"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/br_firma_regular"
+            android:background="@drawable/mail_support_box_bg"
+            app:layout_constraintTop_toBottomOf="@+id/textBillPrice"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/textManuelOrAutomatic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/br_firma_medium"
+            android:textColor="@color/white"
+            android:text="@string/automatic_or_manuel"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etPrice"/>
+
+        <EditText
+            android:id="@+id/etAutomaticOrManuel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/br_firma_regular"
+            android:background="@drawable/mail_support_box_bg"
+            app:layout_constraintTop_toBottomOf="@+id/textManuelOrAutomatic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeButtonSetBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/continue_button_createaccount_bg"
+            android:layout_marginEnd="30dp"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintTop_toBottomOf="@id/etAutomaticOrManuel">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_reminder"
+                android:fontFamily="@font/br_firma_medium"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>

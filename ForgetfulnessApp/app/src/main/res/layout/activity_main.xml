@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/orangeDot"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/dot_bg"
+            android:layout_alignEnd="@id/textview"
+            android:visibility="visible" /> <!-- Başlangıçta görünmez -->
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:text="merhaba"
+            android:textSize="28sp"
+            android:fontFamily="@font/poppins_semibold"
+            />
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/home_screen_bg_box">
+
+        <RelativeLayout
+            android:id="@+id/withGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_screen_edt_box_bg"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/google_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/continuegoogle"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/withMail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_screen_edt_box_bg"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintTop_toBottomOf="@id/withGoogle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/mail_icon_black"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signupmail"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:fontFamily="@font/br_firma_medium"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logInButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/outlined_box_bg"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

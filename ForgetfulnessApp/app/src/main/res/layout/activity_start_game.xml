@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game.StartGameActivity"
+    android:background="@drawable/game_bg_play_screen">
+
+
+    <LinearLayout
+        android:id="@+id/imageIcons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/memoryHeroText"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/iconTiger"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_tiger"/>
+            <ImageView
+                android:id="@+id/iconBlossom"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_cherryblossom" />
+            <ImageView
+                android:id="@+id/iconCupcake"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_cupcake"/>
+            <ImageView
+                android:id="@+id/iconWatermelon"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_watermelon"/>
+            <ImageView
+                android:id="@+id/iconMoon"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_moon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/iconBanana"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_banana"/>
+            <ImageView
+                android:id="@+id/iconUnicorn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_unicorn" />
+            <ImageView
+                android:id="@+id/iconBTennis"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_tball"/>
+            <ImageView
+                android:id="@+id/iconSunflower"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_sunflower"/>
+            <ImageView
+                android:id="@+id/iconMagicWand"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:src="@drawable/object_magic_wand"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    
+    <TextView
+        android:id="@+id/memoryHeroText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MemoryHero"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <ImageView
+        android:id="@+id/memoryEaseLogo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/memoryeaselogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/gameDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/relativePlayButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        android:text="@string/memoryherodesc"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#fff"/>
+
+
+    <RelativeLayout
+        android:id="@+id/relativePlayButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/play_button_game">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/playy"
+            android:layout_centerInParent="true"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_bold"/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

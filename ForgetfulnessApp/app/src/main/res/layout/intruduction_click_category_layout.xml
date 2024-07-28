@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/video_category"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="bottom">
+
+
+        <TextView
+            android:id="@+id/textClickTitleInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_category"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/br_firma_bold"
+            android:textSize="16sp"
+            android:layout_marginStart="4dp"
+            />
+        <TextView
+            android:id="@+id/textClickTitleInfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectcategory_introduction"
+            android:fontFamily="@font/br_firma_medium"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textClickTitleInfo"
+            android:layout_marginStart="4dp"
+            />
+
+
+
+        <RelativeLayout
+            android:id="@+id/buttonContinueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginEnd="2dp"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/pro_subs_box_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="@string/continuee"
+                android:fontFamily="@font/br_firma_medium"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

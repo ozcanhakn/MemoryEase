@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardViewMeditation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="2.5dp"
+    android:layout_marginStart="2.5dp"
+    android:layout_marginTop="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardMaxElevation="8dp"
+    >
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageViewGameRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anxiety_example"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:id="@+id/memoryEaseLogoBlurGame"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:src="@drawable/memoryeaselogoblur70"
+        android:translationZ="90dp"/>
+
+    <TextView
+        android:id="@+id/textGameOfNameRecycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFC97E"
+        android:text="Anxiety"
+        android:fontFamily="@font/urbanist_medium"
+        android:layout_gravity="bottom|center_horizontal"/>
+
+
+</androidx.cardview.widget.CardView>

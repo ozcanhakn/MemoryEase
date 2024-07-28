@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="10dp"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp">
+
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="30dp">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintStart_toStartOf="parent">
+
+           <TextView
+               android:id="@+id/textBillType"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bill Type"
+               android:textColor="#C9C6CE"
+               android:textSize="16sp"
+               android:fontFamily="@font/br_firma_medium"
+               android:layout_marginTop="10dp"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:id="@+id/textBillPayType"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Manuel"
+               android:textColor="#838088"
+               android:textSize="16sp"
+               android:fontFamily="@font/br_firma_regular"
+               android:layout_marginTop="10dp"
+               android:layout_marginStart="10dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/linearAut"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           android:layout_marginEnd="20dp"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_gravity="center_horizontal">
+
+               <TextView
+                   android:id="@+id/textBillAmountMark"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/mark"
+                   android:layout_gravity="right"
+                   android:textColor="#C9C6CE"
+                   android:textSize="16sp"
+                   android:layout_marginTop="10dp"
+                   android:fontFamily="@font/br_firma_medium"
+                   />
+
+               <TextView
+                   android:id="@+id/textBillAmount"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="60"
+                   android:layout_gravity="right"
+                   android:textColor="#C9C6CE"
+                   android:textSize="16sp"
+                   android:layout_marginTop="10dp"
+                   android:fontFamily="@font/br_firma_medium"
+                   />
+
+           </LinearLayout>
+
+
+           <TextView
+               android:id="@+id/textBillPayDate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Aug 12"
+               android:textColor="#838088"
+               android:textSize="16sp"
+               android:fontFamily="@font/br_firma_regular"
+               android:layout_marginTop="5dp"
+              />
+
+       </LinearLayout>
+
+       <ImageView
+           android:id="@+id/deleteBill"
+           android:layout_width="24dp"
+           android:layout_height="24dp"
+           app:layout_constraintTop_toBottomOf="@+id/linearAut"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           android:src="@drawable/ic_baseline_delete_24"
+           />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

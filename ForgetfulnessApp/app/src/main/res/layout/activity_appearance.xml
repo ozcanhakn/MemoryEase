@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity.AppearanceActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/upperConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/backButtonAppearance"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/textAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appearance"
+            android:textSize="18sp"
+            android:textColor="@color/textcolor"
+            android:fontFamily="@font/br_firma_semibold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/backButtonAppearance"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="20dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upperConstraint"
+        android:layout_marginStart="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/textcolor"
+        android:text="CHOOSE YOUR BRIGHTNESS"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/br_firma_semibold"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/matchSystemConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textChoose"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/appearanceSettingsIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/orangedevice"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textMatchSystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Match System"
+            android:textSize="17sp"
+            android:textColor="@color/textcolor"
+            android:fontFamily="@font/br_firma_medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/appearanceSettingsIcon"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/constraintCheck"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/check_light_grey"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/matchSunshineConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/matchSystemConstraint"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/appearanceSunshineIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/sunrise_light"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:textSize="17sp"
+            android:textColor="@color/textcolor"
+            android:fontFamily="@font/br_firma_medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/appearanceSunshineIcon"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/constraintLightCheck"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/check_light_grey"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/matchDarkConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/matchSunshineConstraint"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/appearanceDarkIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/moon_darkorange"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark"
+            android:textColor="@color/textcolor"
+            android:textSize="17sp"
+            android:fontFamily="@font/br_firma_medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/appearanceDarkIcon"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/constraintDarkCheck"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/check_light_grey"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

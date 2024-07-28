@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DarkMode" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--Dark Mode-->
+        <item name="colorPrimary">#96D785</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:windowBackground">#000</item>
+
+    </style>
+</resources>

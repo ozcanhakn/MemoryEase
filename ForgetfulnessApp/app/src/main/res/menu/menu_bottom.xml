@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/advice"
+        android:title="@string/advice"
+        android:icon="@drawable/advice_guidebook_icon"/>
+    <item
+        android:id="@+id/main"
+        android:title="@string/barmain"
+        android:icon="@drawable/goal_main_icon"/>
+    <item
+        android:id="@+id/statistic"
+        android:title="@string/statistic"
+        android:icon="@drawable/icon_statistics"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings_icon"/>
+
+</menu>

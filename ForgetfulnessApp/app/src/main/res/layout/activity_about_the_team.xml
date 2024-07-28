@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".AboutTheTeam">
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/topNavigation"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="40dp">
+
+       <ImageView
+           android:id="@+id/cancelAboutTheTeam"
+           android:layout_width="24dp"
+           android:layout_height="24dp"
+           android:src="@drawable/ic_baseline_arrow_back_24"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:layout_marginStart="20dp"/>
+
+       <TextView
+           android:id="@+id/titleAboutTheTeam"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           android:textSize="20dp"
+           android:textColor="@color/textcolor"
+           android:fontFamily="@font/br_firma_medium"
+           android:text="@string/abouttheteam"/>
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/AppTheme">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textHeyHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heyhihello"
+                android:fontFamily="@font/br_firma_bold"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttheteam1"
+                android:textSize="16sp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttheteam2"
+                android:textSize="16sp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttheteam4"
+                android:textSize="16sp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttheteam3"
+                android:textSize="16sp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttheteam5"
+                android:textSize="16sp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttheteam6"
+                android:textSize="16sp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

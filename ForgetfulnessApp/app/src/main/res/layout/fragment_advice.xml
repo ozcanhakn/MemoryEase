@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    tools:context=".AdviceFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advice"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="@font/br_firma_semibold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollViewAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/textAerobicExercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aerobic_exercise"
+                    android:textColor="#fff"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_semibold"
+                  />
+                <ImageView
+                    android:id="@+id/questionButtonAerobic"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/question_icon_statistic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="20dp"/>
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAerobicExercise"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="13dp"
+                app:cardBackgroundColor="#fff"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    app:lottie_rawRes="@raw/stick_run_animation"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textAerobic1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aerobic_text1"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/textAerobic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aerobic_text2"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/textAerobic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aerobic_text3"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/textAerobic4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aerobic_text4"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                >
+                <TextView
+                    android:id="@+id/textCrosswordPuzzle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:text="@string/puzzles"
+                    android:fontFamily="@font/br_firma_semibold"
+                    android:layout_marginStart="20dp"/>
+                <ImageView
+                    android:id="@+id/questionButtonPuzzle"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/question_icon_statistic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="20dp"/>
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardCrosswordPuzzle"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#fff"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    app:lottie_rawRes="@raw/brain_animation_crossword"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/relativeGoToGames"
+                android:layout_width="200dp"
+                android:visibility="gone"
+                android:layout_height="60dp"
+                android:background="@drawable/upgrade_for_pro_bg_box"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_bold"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:text="@string/go_to_games"/>
+
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+                <TextView
+                    android:id="@+id/textMeditation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:text="@string/meditation"
+                    android:fontFamily="@font/br_firma_semibold"
+                    android:layout_marginStart="20dp"
+                    />
+                <ImageView
+                    android:id="@+id/questionButtonMeditation"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/question_icon_statistic"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardMeditation"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#3250C3"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    app:lottie_rawRes="@raw/meditation_anim_women"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textMeditation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text1"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textMeditation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text2"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textMeditation3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text3"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textMeditation4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text4"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textMeditation5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text5"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textMeditation6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text6"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textMeditation7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meditation_text7"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gotoMeditation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                app:cardBackgroundColor="#17A5F7"
+                app:cardCornerRadius="20dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gotometitation"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    />
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/textSleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:text="@string/sleep"
+                    android:fontFamily="@font/br_firma_semibold"/>
+
+                <ImageView
+                    android:id="@+id/questionButtonSleep"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/question_icon_statistic"
+                    android:layout_marginEnd="20dp"/>
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSleep"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#0ACAFF"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    app:lottie_rawRes="@raw/lottie_panda_sleep"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textSleep1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text1"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text2"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text3"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text4"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text5"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text6"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text7"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textSleep8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_text8"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:fontFamily="@font/br_firma_regular"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gotoSleep"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                app:cardBackgroundColor="#17A5F7"
+                app:cardCornerRadius="20dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sleeptracker1"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    />
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                >
+                <TextView
+                    android:id="@+id/textUseReminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:text="@string/use_reminder"
+                    android:fontFamily="@font/br_firma_semibold"/>
+
+                <ImageView
+                    android:id="@+id/questionButtonUseReminder"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/question_icon_statistic"
+                    android:layout_marginEnd="20dp"/>
+            </RelativeLayout>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardUseReminder"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#0ACAFF"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    app:lottie_rawRes="@raw/reminder_animation_advice"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+

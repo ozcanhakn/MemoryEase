@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    app:cardBackgroundColor="#5C3F3F"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/selectedDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Header"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:fontFamily="@font/br_firma_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Header"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:layout_marginStart="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/plannerMic"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/mic_icon_50px"/>
+
+        </RelativeLayout>
+
+
+
+
+        <EditText
+            android:id="@+id/calenderAddTitleBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:paddingStart="10dp"
+            android:background="@drawable/reminder_alert_item_box_bg"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="2dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:text="Note"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/plannerMic1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/mic_icon_50px"/>
+
+        </RelativeLayout>
+
+
+
+
+        <EditText
+            android:id="@+id/calenderAddDescBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingStart="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/reminder_alert_item_box_bg"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeCancelButtonCalenderAdd"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/design_of_the_save_button_calendar"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="Cancel"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeOkeyButtonCalenderAdd"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/design_of_the_save_button_calendar"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="40dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="Add"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

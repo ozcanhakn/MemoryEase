@@ -1,0 +1,567 @@
+<resources>
+    <string name="app_name">Memory Ease</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="addReminderText">Hatırlatıcı Ekle</string>
+    <string name="myLastReminder">Son Hatırlatıcım</string>
+
+
+    //Upgrade For pro features Screen
+    <string name="bestDeal">EN\nİYİ</string>
+
+    <string name="thanks_settings">MemoryEase\'i kullandığınız ve bize katıldığınız için teşekkürler</string>
+
+    <string name="time_format">Zaman Formatı</string>
+
+
+    <string name="aerobic_text1">Aerobik egzersiz özellikle beyin için iyidir, bu nedenle kan pompalamanızı sağlayacak aktiviteleri seçin. Genel olarak, kalbiniz için iyi olan her şey beyniniz için de harikadır.</string>
+    <string name="aerobic_text2">Uyandığınızda uyku sisini temizlemek uzun zamanınızı mı alıyor? Eğer öyleyse, sabahları güne başlamadan önce egzersiz yapmanın büyük bir fark yarattığını görebilirsiniz. Örümcek ağlarını temizlemenin yanı sıra, sizi gün boyunca öğrenmeye de hazırlar.</string>
+    <string name="aerobic_text3">El-göz koordinasyonu veya karmaşık motor becerileri gerektiren fiziksel aktiviteler beyin gelişimi için özellikle faydalıdır.</string>
+    <string name="aerobic_text4">Egzersiz molaları zihinsel yorgunluğu ve öğleden sonra çöküşünü atlatmanıza yardımcı olabilir. Kısa bir yürüyüş veya birkaç zıplama bile beyninizi yeniden başlatmak için yeterli olabilir.</string>
+
+
+    <string name="meditation_text1">Meditasyon uygulaması sağlığınızı birçok yönden olumlu etkileyebilir.</string>
+    <string name="meditation_text2">Rahatlatıcı ve yatıştırıcıdır ve stresi ve ağrıyı azalttığı, kan basıncını düşürdüğü ve hatta hafızayı geliştirdiği bulunmuştur (8Trusted Source).</string>
+    <string name="meditation_text3">Aslında, meditasyonun beyindeki gri maddeyi artırdığı gösterilmiştir. Gri madde nöron hücre gövdelerini içerir.</string>
+    <string name="meditation_text4">Yaşlandıkça gri madde azalır, bu da hafızayı ve bilişi olumsuz etkiler.</string>
+    <string name="meditation_text5">Meditasyon ve rahatlama tekniklerinin, 20\'li yaşlardaki insanlardan yaşlı yetişkinlere kadar her yaştan insanda kısa süreli hafızayı geliştirdiği gösterilmiştir.</string>
+    <string name="meditation_text6">Örneğin, bir çalışma, farkındalık gibi meditasyon uygulamaları yapan Tayvanlı üniversite öğrencilerinin, meditasyon yapmayan öğrencilere göre önemli ölçüde daha iyi uzamsal çalışma belleğine sahip olduğunu göstermiştir.</string>
+    <string name="meditation_text7">Uzamsal çalışma belleği, nesnelerin uzaydaki konumları hakkında zihninizde bilgi tutma ve işleme yeteneğidir.</string>
+
+    <string name="sleep_text1">Doğru uyku eksikliği uzunca bir süredir zayıf hafıza ile ilişkilendirilmektedir.</string>
+    <string name="sleep_text2">Uyku, kısa süreli anıların güçlendirildiği ve uzun süreli anılara dönüştürüldüğü bir süreç olan hafıza konsolidasyonunda önemli bir rol oynar.</string>
+    <string name="sleep_text3">Araştırmalar, uykusuz kaldığınızda hafızanızın olumsuz etkilenebileceğini gösteriyor.</string>
+    <string name="sleep_text4">Örneğin, bir çalışmada yaşları 10 ila 14 arasında değişen 40 çocukta uykunun etkileri incelenmiştir.</string>
+    <string name="sleep_text5">Bir grup çocuk akşamları hafıza testleri için eğitildi ve ertesi sabah bir gece uykusundan sonra test edildi. Diğer grup ise eğitim ve test arasında hiç uyumadan aynı gün eğitildi ve test edildi.</string>
+    <string name="sleep_text6">Eğitim ve test arasında uyuyan grup hafıza testlerinde %20 daha iyi performans gösterdi.</string>
+    <string name="sleep_text7">Bir başka çalışma, gece vardiyasında çalışan hemşirelerin daha fazla matematik hatası yaptığını ve %68\'inin hafıza testlerinde gündüz vardiyasında çalışan hemşirelere kıyasla daha düşük puan aldığını ortaya koymuştur.</string>
+    <string name="sleep_text8">Sağlık uzmanları, optimum sağlık için yetişkinlerin her gece 7 ila 9 saat uyumasını önermektedir.</string>
+
+    <string name="question_meditation">Meditasyon sadece vücudunuz için iyi değildir, aynı zamanda beyniniz için de iyidir. Araştırmalar meditasyonun beyindeki gri maddeyi artırabileceğini ve uzamsal çalışma belleğini geliştirebileceğini göstermektedir.</string>
+    <string name="question_exercise">Egzersiz, beyniniz de dahil olmak üzere tüm vücudunuz için inanılmaz faydalar sağlar. Kısa süreli orta düzeyde egzersizin bile tüm yaş gruplarında hafıza dahil olmak üzere bilişsel performansı iyileştirdiği gösterilmiştir.</string>
+    <string name="question_sleep">Araştırmalar sürekli olarak yeterli uykuyu daha iyi hafıza performansı ile ilişkilendirmiştir. Uyku, anıların pekiştirilmesine yardımcı olur. Ayrıca iyi dinlenmişseniz hafıza testlerinde uykusuzluğa kıyasla daha iyi performans göstermeniz muhtemeldir.</string>
+    <string name="question_crossword">Beyninizi zorlayan oyunlar hafızanızı güçlendirmenize yardımcı olabilir ve hatta bunama riskini azaltabilir.</string>
+
+
+    <string name="games">OYUNLAR</string>
+
+
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+
+    <string name="advice">Tavsiye</string>
+    <string name="aerobic_exercise">AEROBIK EGZERSIZ</string>
+    <string name="puzzles">BULMACALAR</string>
+    <string name="meditation">MEDİTASYON</string>
+    <string name="go_to_games">OYUNLARA GİT</string>
+    <string name="use_reminder">HATIRLATICI KULLANMAK</string>
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Widget Ekle</string>
+
+
+    <string name="welcomeback">Hoşgeldiniz</string>
+    <string name="continuee">Devam et</string>
+    <string name="donthaveanaccount">Hesabınız yok mu?</string>
+    <string name="signup">Üye ol</string>
+    <string name="continuegoogle">Google ile devam et</string>
+    <string name="signupmail">Email ile üye ol</string>
+    <string name="login">Giriş yap</string>
+
+
+
+    <string name="funclub">MemoryEase Fun Club</string>
+    <string name="upgradeforpro">Pro Özellikler için Yükseltme</string>
+    <string name="unlock_exclusive_bonus">Özel bonus özelliklerin kilidini açın!\nMemoryEase fun club\'a katılın."</string>
+    <string name="hereiseverythins">İşte sahip olacağınız her şey…</string>
+    <string name="statistic">İstatistik</string>
+    <string name="notiandwidget">Bildirimler ve Widgetlar</string>
+    <string name="themecolor1">Tema Renkleri</string>
+    <string name="muchappreci">Çok Teşekkürler</string>
+    <string name="monthly">aylık</string>
+    <string name="annualy">yıllık</string>
+    <string name="onetime">tek seferlik</string>
+
+
+    <string name="notyetcompleted">Henüz tamamlanmamış hatırlatıcılar…</string>
+    <string name="seeall">Hepsini Gör</string>
+    <string name="complete">Tamamla</string>
+
+    <string name="remindertitle">Hatırlatıcı Başlığı</string>
+    <string name="reminder_desc">Hatırlatıcı Açıklaması</string>
+    <string name="setlocation">KONUM AYARLA</string>
+    <string name="settime">ZAMAN AYARLA</string>
+    <string name="time">Saat: </string>
+    <string name="date">Tarih: </string>
+    <string name="remind_intervals">Aralıklarla hatırlat</string>
+    <string name="select_category">Kategori Seçin</string>
+    <string name="click">Tıklayın</string>
+    <string name="set_reminder">HATIRLATICIYI KUR</string>
+    <string name="howtosetreminder">Hatırlatıcı Nasıl Ayarlanır?</string>
+
+    <string name="bytime">Zamana Göre</string>
+    <string name="bylocation">Konuma Göre</string>
+    <string name="bytime1">Eğer sadece belirli bir zamana hatırlatıcı kurmak istiyorsanız, saat ve tarihi seçmelisiniz.(Konum seçmenize gerek yok.)</string>
+    <string name="bylocation1">Eğer belirli bir konuma ulaşmayı unutmamak istiyorsanız, konuma göre hatırlatıcı kurmanız yeterlidir.(Saat ve tarihi seçmenize gerek yok.)</string>
+    <string name="bylocation2">Hatırlatma, 1 km mesafe kaldığında çalışır.</string>
+
+
+
+
+
+    <string name="remindmedistance">Konuma </string>
+    <string name="remindmedistance1">kilometers of the location.</string>
+
+
+    <string name="finance">Finans: </string>
+    <string name="Shopping">Alışveriş: </string>
+    <string name="education">Eğitim: </string>
+    <string name="Personal">Kişisel: </string>
+    <string name="Social">Sosyal: </string>
+    <string name="Job">İş: </string>
+    <string name="Other">Diğer: </string>
+
+    <string name="week">Haftalık</string>
+    <string name="Month">Aylık</string>
+    <string name="Annual">Yıllık</string>
+
+    <string name="howmanyalarm">Hangi kategorilerde kaç hatırlatıcı var</string>
+    <string name="totalnumberreminder">Ayarlanan Toplam Hatırlatıcı Sayısı</string>
+    <string name="byhourday">GÜNÜN SAATLERİNE GÖRE</string>
+    <string name="bydayweek">HAFTANIN GÜNÜNE GÖRE</string>
+    <string name="dybyregular">Düzenli Hatırlatıya Göre Günler</string>
+
+
+
+
+
+
+
+
+    <string name="sign_out">Çıkış Yap</string>
+
+    <string name="memoryease_updates">MemoryEase Yenilikleri</string>
+    <string name="new_updates">Merhaba Arkadaşlar! MemoryEase\'in yeni sürümlerinde yenilikleri bu sayfada paylaşacağız</string>
+    <string name="backto_main">Ana ekrana dön</string>
+
+    <string name="email_support">Email Desteği</string>
+    <string name="welovetoherfrom">Sizden haber almayı çok isteriz!</string>
+
+    <string name="Whatsyourname">İsminiz nedir?</string>
+    <string name="whatyouremail">Email adresiniz nedir?</string>
+    <string name="whatsup">N\'aber?</string>
+    <string name="sendyourmessage">Mesajını Gönder</string>
+    <string name="helloyoucanwrite">Merhaba! İletmek istediğiniz mesajı buraya yazabilirsiniz.</string>
+
+
+
+
+
+
+
+
+    <string name="email_upper_text_question">abonelikler hakkında bir sorunuz mu var veya yeni bir özellik mi talep etmek istiyorsunuz?</string>
+
+    <string name="your_text_reference">SSS bölümümüze bir göz atın</string>
+
+    <string name="quick_answers">hızlı, cevaplar için veya</string>
+    <string name="quick_answers1">Aşağıdaki formu doldurun, size en kısa sürede geri dönüş yapalım.</string>
+    <string name="whats_your_email_desc">Bunu kötülük için kullanmayacağız (ya da size geri yazmaktan başka bir şey için).</string>
+
+    <string name="upgrade_pro_advice_info">Kısa ve uzun vadeli unutkanlığı önlemek için çeşitli öneriler. Çeşitli bulmacalar ve daha fazlası.</string>
+    <string name="upgrade_pro_statistic_info">Haftalık, aylık, yıllık olarak ayarladığınız hatırlatıcıların ayrıntılı istatistiklerine (hangi zaman aralıklarında, hangi kategorilerde, vb. kaç hatırlatıcı ayarladığınız) ve çok daha fazlasına erişin</string>
+    <string name="upgrade_pro_notiandwitgets">Sınırsız hatırlatıcı ayarlayın, hatırlatıcı sesini, simgesini ve daha fazlasını özelleştirin. Uygulamayı açmadan widget aracılığıyla hatırlatıcı ayarlayabilme.</string>
+    <string name="theme_color">Uygulamanızın belirli bir renkte kalmasını mı istiyorsunuz? Düğmeyi çevirin ve tam olarak istediğiniz gibi tutun</string>
+    <string name="much_appreciation">Tamamen tatlı müşterilerimiz tarafından kurulan küçük bir bağımsız geliştiriciyiz. Yükseltmeniz MemoryEase\'i gelecekte de geliştirmeye devam etmemize yardımcı olacak - desteğiniz için çok teşekkürler!</string>
+    <string name="go_top">Yükseltmek için geri dönün</string>
+
+
+    <string name="reminderbylocation10">Konuma Göre Hatırlatıcı</string>
+    <string name="reminderbylocation11">Seçtiğiniz konuma yaklaştığınızda,\nunutsanız da endişelenmeyin!\nMemoryEase size hatırlatacaktır.</string>
+
+    <string name="change">Değiştirildi</string>
+    <string name="delete1">Silindi</string>
+
+
+
+
+
+
+    <string name="abouttheteam">Takım Hakkında</string>
+    <string name="heyhihello">Merhaba!</string>
+    <string name="abouttheteam1">Biz Hakan Özcan ve Mustafa Yıldız, MemoryEase\'in arkasındaki ekibiz. İşte MemoryEase\'in nasıl ortaya çıktığının hikayesi ve onu inşa etme felsefemiz.</string>
+    <string name="abouttheteam2">Aslında gün içinde birçok kez unutkanlık sorunu yaşadık. Bu sorunun önüne nasıl geçebiliriz diye düşündüğümüzde aslında MemoryEase\'in temellerini atmış olduk.</string>
+    <string name="abouttheteam3">Bariz bir şey yaparak daha iyisini yapabileceğimizi düşündük: sadece en önemli bilgileri bir arada gösteren bir uygulama.</string>
+    <string name="abouttheteam4">Çeşitli uygulamalara baktık, tavsiyeleri araştırdık. Fakat hiçbirisi yeterli değildi.</string>
+    <string name="abouttheteam5">Bir çözüm bulmak için uzun süre boyunca testler yaptık, bilgiler topladık. Aynı sorundan muzdarip olan insanlardan tavsiyeler aldık ve geliştirme sürecinden sonra ortaya MemoryEase çıktı</string>
+    <string name="abouttheteam6">Sürüm 1.0\'ı 2023\'ün sonlarında Android için sunduk.</string>
+
+
+
+    <string name="question_by_of_the_weeek">En çok hangi güne hatırlatıcı kurduğunuzun bir istatistiği. Hangi günler daha unutkan olabileceğinizin bir göstergesi olabilir.</string>
+    <string name="question_by_of_the_time">En çok hangi saate hatırlatıcı ayarladığınıza dair bir istatistik. Hangi saatlerde daha unutkan olabileceğinizin bir göstergesi olabilir.</string>
+
+
+    <string name="memory_game1">Hafıza Kartları Oyunu</string>
+    <string name="start_game_65">6x5 Oyun Başlat</string>
+    <string name="start_game_54">5x4 Oyun Başlat</string>
+    <string name="start_game3">3 Eşleşmeli Oyun Başlat</string>
+
+
+
+
+
+
+    <string name="sudoku">Sudoku</string>
+    <string name="norwegian_description">Norveç Bayrağı</string>
+    <string name="british_description">İngiliz Bayrağı</string>
+
+    <string name="new_game">Yeni Oyun Başlat</string>
+    <string name="add_new_board">Yeni Tahta Ekle</string>
+    <string name="continue_new_board">Devam et</string>
+    <string name="successful_new_board">Yeni Tahtayı Kaydet</string>
+    <string name="fail_new_board">Yeni Tahta Eklenemedi</string>
+    <string name="show_instructions">Açıklamayı Göster</string>
+    <string name="choose_language">Dil Seçin:</string>
+
+    <string name="instructions">Açıklama</string>
+    <string name="instructions_1">1. Sudoku\'da kalan tüm taşların tahtaya yerleştirilmesi amaçlanır. Sayılar 1\'den 9\'a kadar değişir (9x9 Sudoku\'da).</string>
+    <string name="instructions_2">2. Tahta birkaç kareye ayrılmıştır ve her birinin içine her sayıdan yalnızca bir tane yerleştirilmesine izin verilir.</string>
+    <string name="instructions_3">3. Hem yatay hem de dikey olarak her sıraya her sayıdan yalnızca bir tane yerleştirilmesine izin verilir.</string>
+    <string name="go_back_button">Geri Dön</string>
+
+    <string name="choose_difficulty">Zorluk Seç:</string>
+    <string name="difficulty_easy">Kolay</string>
+    <string name="difficulty_normal">Orta Zorluk</string>
+    <string name="difficulty_hard">Zor</string>
+    <string name="start_game">Oyuna Başla</string>
+    <string name="choose_number">Sayıyı Seç</string>
+    <string name="choose_a_number">Sayı seçme kutucuğu:</string>
+    <string name="place_number">Sayı kutucuğu</string>
+    <string name="piece_unsure">Parçayı emin değil olarak işaretleyin</string>
+    <string name="remove_piece">Parçayı Kaldır</string>
+    <string name="start_piece_error">Başlangıç parçası değiştirilemiyor</string>
+    <string name="check_board">Tahtayı Kontrol Et</string>
+    <string name="board_correct">Tahta Doğru</string>
+    <string name="board_incorrect">Tahta Yanlış</string>
+
+    <string name="howitworks">Nasıl çalışır</string>
+    <string name="featuresreq">Özellik Talepleri</string>
+
+    <string name="widgetsfaqs">Widget</string>
+    <string name="upgradesbillings">Yükseltmeler ve Faturalamalar</string>
+    <string name="cancellings">İptal</string>
+    <string name="faqstitle">SSS</string>
+
+    <string name="howcanbylocation">Konuma göre nasıl hatırlatıcı kurarım?</string>
+    <string name="answerhowcanbylocation">Ana ekranda Hatırlatıcı ekle butonuna tıkladığınızda, Konum kutusundan istediğiniz adresi seçebilirsiniz. (Saat ve tarih seçmenize gerek yoktur.)</string>
+    <string name="questionmyselfcategory">Hatırlatıcıları ayarladığımızda, kendi kategorimizi\n tanımlayabilir miyiz?</string>
+    <string name="answermyselfcategory">Şu anda hayır. Ancak bize bildirirseniz\n bu özelliği ekleyebiliriz.</string>
+    <string name="questionaccessdata">Uygulama telefonumdaki herhangi bir veriye erişebilir\n veya kaydedebilir mi?</string>
+    <string name="answeraccessdata">Kesinlikle hayır.</string>
+
+
+    <string name="questionmyselfvoice">Hatırlatıcılara kendi belirlediğimiz sesleri ekleyebilme özelliği gelecek mi?</string>
+    <string name="answermyselfvoice">Büyük ihtimalle evet.</string>
+    <string name="questionforum">Forum özelliği ne zaman geliyor?</string>
+    <string name="answersforum">Büyük ihtimalle bir veya iki sürüm\n sonra gelecek.</string>
+
+
+    <string name="reminderbylocation_question">Konuma göre bir hatırlatıcı ayarladığımda, cihazımda konumun açık olması gerekiyor mu?</string>
+    <string name="reminderbylocation_answer">Şimdilik evet</string>
+
+
+
+    //Widgets
+    <string name="textwidget">Widget</string>
+    <string name="textupgradebilling">Yükseltmeler ve Faturalar</string>
+
+    <string name="widgetquestion1">Cihazıma nasıl widget eklerim?</string>
+    <string name="widgetanswers1">Tüm simgeler "kıpırdama moduna" geçene kadar ana ekranınızdaki herhangi bir simgeye basılı tutun. Ardından ana ekranda widgetlar isimli bir buton göreceksiniz. Widgetlar butonuna tıkladığınızda seçenekler arasında MemoryEase\'i göreceksiniz.</string>
+
+
+    //Upgrade And Billing
+    <string name="upgradeandbillingquestion1">Cihazımdaki MemoryEase\'i yükseltmek için ödeme yaparsam. Ücretli sürümü diğer cihazımda kullanabilir miyim?</string>
+    <string name="upgradeandbillinganswers1">Kesinlikle mevcut hesabınız ile kullanabilirsiniz.</string>
+    <string name="upgradeandbillingquestion2">MemoryEase aboneliğimi ailemdeki diğer kişilerle paylaşabilir miyim?</string>
+    <string name="upgradeandbillinganswers2">Elbette, ancak şimdilik bunu yapmak hatırlatıcının istemediğiniz bir anda çalmasına neden olabilir.</string>
+
+
+    //Subs Cancelling
+    <string name="howcancel1question">Aboneliğimi nasıl iptal edebilirim?</string>
+
+
+    <string name="reminderintervals">Aralıklarla Hatırlat</string>
+
+    <string name="ok">Tamamla</string>
+
+    <string name="lastreminder">Önceki Hatırlatıcılar</string>
+
+    <string name="p">PAZAR</string>
+    <string name="m">PAZARTESİ</string>
+    <string name="t">SALI</string>
+    <string name="w">ÇARŞAMBA</string>
+    <string name="t1">PERŞEMBE</string>
+    <string name="f">CUMA</string>
+    <string name="s">CUMARTESİ</string>
+
+
+
+    <string name="sunday">P</string>
+    <string name="monday">P</string>
+    <string name="tuesday">S</string>
+    <string name="wednesday">Ç</string>
+    <string name="thursday">P</string>
+    <string name="friday">C</string>
+    <string name="saturday">C</string>
+
+
+    <string name="sunday1">Pz</string>
+    <string name="monday1">Pa</string>
+    <string name="tuesday1">Sa</string>
+    <string name="wednesday1">Çr</string>
+    <string name="thursday1">Pr</string>
+    <string name="friday1">Cu</string>
+    <string name="saturday1">Cm</string>
+
+    <string name="selectdate">Hatırlatıcınızın Tarihini Seçin</string>
+
+
+    <string name="delete_reminder">Hatırlatıcı başarıyla silindi</string>
+    <string name="unable_reminder">Hatırlatıcı silinemedi</string>
+
+
+
+    <string name="not_completed">Tamamlanmadı</string>
+    <string name="completed">Tamamlandı</string>
+
+
+
+    <string name="by_time">Zamana Göre</string>
+    <string name="by_location">Konuma Göre</string>
+    <string name="previous_reminder">Önceki Hatırlatıcılar</string>
+
+
+
+    <string name="rahatlatıcıses">Rahatlatıcı Sesler</string>
+
+
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanned_data">Scanned Data</string>
+    <string name="audio_recorder">Audio Recorder</string>
+
+    <string name="play_recording">Kaydı Oynat</string>
+
+    <string name="gotometitation">Seslere Gitmek İçin</string>
+    
+    <string name="Whatareminderbylocationdoes">Konuma göre hatırlatıcı ne işe yarar?</string>
+    <string name="Whatareminderbylocationdoes1">Hatırlatılmasını istediğiniz bir lokasyonu\nseçtiğinizde,\nseçilen konuma yalnızca 1 kilometre\nmesafe kaldığında\nMemoryEase size\nseçtiğiniz konumu hatırlatır.</string>
+    <string name="Whatareminderbylocationdoes2">Tabi ki, cihazınızın arka planında\nkonumunuzun açık olması gerekir.</string>
+
+    <string name="status">Statü</string>
+
+    <string name="play">Oynat</string>
+    <string name="delete">Sil</string>
+    <string name="records">Kayıtlar</string>
+
+
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="start_playing">Start Playing</string>
+    <string name="stop_playing">Stop Playing</string>
+    <string name="voice_recorder">Ses Kaydedici</string>
+
+
+
+
+    <string name="save">KAYDET</string>
+    <string name="selecteddate">Seçilen Tarih: </string>
+
+    <string name="planner">PLANLAYICI</string>
+    <string name="viewmore">daha fazla</string>
+    <string name="less">azalt</string>
+
+    <string name="add_a_planner">PLANLAYICI</string>
+    <string name="sucadded">Başarıyla Eklendi</string>
+    <string name="failadd">Eklenemedi</string>
+
+
+    <string name="upgrade_info_toast">1 hafta içinde iki plan eklendi, isterseniz MemoryEase FunClub\'a katılabilir ve sınırsız haklardan yararlanabilirsiniz :)</string>
+    <string name="upgrade_info_reminder_toast">1 hafta içinde iki adet hatırlatıcı eklendi, isterseniz MemoryEase FunClub\'a katılabilir ve sınırsız haklardan yararlanabilirsiniz :)</string>
+    <string name="reminderinstalled">Hatırlatıcı başarıyla eklendi</string>
+    <string name="remindernotinstalled">Hatırlatıcı yüklenemedi</string>
+
+
+    <string name="please_enter_mail">Lütfen mail adresinizi girin…</string>
+    <string name="please_enter_password">Lütfen şifrenizi girin…</string>
+    <string name="loginsucc">Giriş Başarılı !</string>
+    <string name="loginfailed">Giriş başarısız! daha sonra tekrar deneyin</string>
+    <string name="mailalreadyexist">Bu e-posta adresi zaten kayıtlıdır.</string>
+    <string name="passlong">Şifre en az 8 karakter uzunluğunda olmalıdır.</string>
+    <string name="passlong1">Şifre en az bir büyük harf, bir küçük harf ve bir rakam içermelidir.</string>
+    <string name="sucregis">Başarıyla Kayıt Olundu!</string>
+    <string name="sucfailed">Kayıt olunamadı, daha sonra tekrar deneyin</string>
+    <string name="enterrecordname">Kayıt Adını Girin</string>
+    <string name="pleaseentervalidname">Lütfen geçerli bir kayıt adı girin</string>
+
+
+
+    //Settings
+
+    <string name="settings">Ayarlar</string>
+    <string name="displayop">EKRAN SEÇENEKLERI</string>
+    <string name="exclusiveextras">AYRICALIKLI EKSTRALAR</string>
+    <string name="haveaquestionorneedhelp">BIR SORUNUZ MU VAR VEYA YARDIMA MI IHTIYACINIZ VAR?</string>
+    <string name="afewothertidbidts">DIĞER BIRKAÇ BILGI</string>
+
+    <string name="appearance">Görünüş</string>
+    <string name="jointhememoryeasefunclub">MemoryEase Fan Club\'a Katılın</string>
+    <string name="accessstatistic">İstatistik</string>
+    <string name="accessadvice">Tavsiye</string>
+    <string name="accessforum">MemoryEase Forum</string>
+
+    <string name="faqs">SSS</string>
+    <string name="emailsupport">Email Desteği</string>
+    <string name="ratethisapp">Uygulamayı Değerlendirin</string>
+
+    <string name="protectingyourprivacy">Özel Bilgilerinizi Koruma</string>
+    <string name="whatsnew">Yeni Ne Var? (1.2023.0.1)</string>
+
+    <string name="signot">Çıkış Yap</string>
+
+
+    <string name="comingsoon">Çok Yakında</string>
+    <string name="nopremiuminfo">Premium Bilgisi Bulunamadı</string>
+    <string name="premiumtimestampinfo">Premium Süreniz Bitmiş, Dilerseniz yenileyebilirsiniz :)</string>
+
+
+    //Navi Bar
+    <string name="barmain">Ana Ekran</string>
+
+
+    <string name="select">Seç</string>
+
+    //alarmsound
+    <string name="voiceselected">Ses Seçildi </string>
+    <string name="sleep">UYU</string>
+    <string name="sleeptracking">UYKU TAKİP</string>
+    <string name="wakeup">UYKUYU BİTİR</string>
+
+    <string name="totaltodaysleep">Bugün uyduğunuz toplam süre:</string>
+    <string name="totalsleepstatistic">Uyku istatistiklerinizi, istatistikler sekmesinde görebilirsiniz.</string>
+
+    <string name="sleeptracker1">Uyku Takip</string>
+    <string name="forgotpass">Şifremi Unuttum</string>
+
+    <string name="forgotemailsent">Şifre sıfırlama e-postası gönderildi.</string>
+    <string name="forgotemailnotsent">Şifre sıfırlama e-postası gönderilemedi:</string>
+    <string name="entermail">Lütfen e-posta adresinizi girin</string>
+
+    
+    //Introduction
+    <string name="great">Harika!</string>
+    <string name="yovefirstalarm">İlk Alarmınızı Kurdunuz.</string>
+    <string name="done">BİTİR</string>
+    <string name="selectcategory_introduction">İstatistiklerinizi takip\nedebilmeniz için önemlidir.</string>
+    <string name="selectday_introduction">YA DA GÜN SEÇEBİLİRSİNİZ</string>
+    <string name="selectday_introduction1">Bir tarih yerine gün seçmek düzenli\nolarak seçtiğiniz günlerde\nhatırlatıcının çalışmasını sağlar.</string>
+    <string name="chooseadate_introduction">BİR GÜN SEÇİN</string>
+    <string name="choosedate_introduction1">Hatırlatıcınızın gününü seçin.\nNot: Eğer seçmek düzenli olarak\nhatırlatılmasını istiyorsanız gün seçin.</string>
+    <string name="chooseatime_introduction">BİR SAAT SEÇİN</string>
+    <string name="chooseatime_introduction1">Hatırlatıcınızın saatini ve\ndakikasını belirleyin.</string>
+    <string name="selectadesc_introduction">Hatırlatıcınıza Açıklama Ekleme</string>
+    <string name="addatitle">BAŞLIK EKLEYİN</string>
+
+
+    <string name="upgradeandbillinganswers3">https://play.google.com/store/account/subscriptions ya da E-mail Support.</string>
+
+
+
+
+    <string name="upgradeinfo1">MemoryEase\'in temel özelliklerini kullanmak için abonelik gerekli değildir. Aylık abonelikler, iptal edilene kadar aylık 0,99 ABD doları(30₺) tutarında faturalandırılır. Yıllık abonelikler iptal edilene kadar yıllık 5,99 ABD doları(180₺) olarak ücretlendirilir. Tek seferlik abonelikler için tek seferlik 29,99 ABD doları(900₺) faturalandırılır. Bu bağlantıyı takip ederek aylık veya yıllık aboneliğinizi istediğiniz zaman iptal edebilirsiniz: https://play.google.com/store/account/subscriptions. Desteğiniz için teşekkür ederiz.</string>
+    <string name="monthprice">30₺</string>
+    <string name="annualprice">180₺</string>
+    <string name="onetimeprice">599.99₺</string>
+
+
+    <string name="billreminder">Fatura Hatırlatıcı</string>
+    <string name="billtype">Fatura Tipi</string>
+    <string name="description">Açıklama</string>
+    <string name="billfee">Fatura Tutarı</string>
+    <string name="automatic_or_manuel">Otomatik veya Manuel Ödeme</string>
+    <string name="sucessfull_estab">Başarıyla Kuruldu</string>
+    <string name="make_a_choice">Seçim Yapın</string>
+    <string name="mark">₺</string>
+
+    <string name="total">Toplam</string>
+
+    <string name="memoryherodesc">Unutkanlığı azaltmak için resimlere dokun.\nAynı resme tekrar tıklama, yoksa oyun biter.\n3 doğru tıklamada DEVAM ET butonuna\nbas ve ilerle!</string>
+    <string name="memoryherodesc1">Unutkanlığını azaltmak için alışveriş\nlistesindekileri sürükleyip sepete koy.\nUnutma, sadece listedeki ürünleri sepete koyacaksın.\n3 Süreye dikkat et!</string>
+
+
+    <string name="playy">OYNA</string>
+
+    <string name="times_up">Süre Doldu!</string>
+    <string name="banana">Muz</string>
+    <string name="apple">Elma</string>
+    <string name="orange">Portakal</string>
+    <string name="mango">Mango</string>
+    <string name="grapes">Üzüm</string>
+    <string name="pineapple">Ananas</string>
+    <string name="strawberry">Çilek</string>
+    <string name="watermelon">Karpuz</string>
+    <string name="biscuit">Bisküvi</string>
+    <string name="drink">İçecek</string>
+    <string name="rice">Pirinç</string>
+    <string name="almond">Badem</string>
+    <string name="olive_oil">Zeytin Yağı</string>
+    <string name="pasta">Makarna</string>
+    <string name="milk">Süt</string>
+    <string name="chocolate">Çikolata</string>
+    <string name="peanut">Yer Fıstığı</string>
+    <string name="nut">Fındık</string>
+    <string name="beans">Bezelye</string>
+    <string name="shampoo">Şampuan</string>
+    <string name="toothpaste">Diş Macunu</string>
+    <string name="flour">Un</string>
+    <string name="cheese">Peynir</string>
+    <string name="coffee">Kahve</string>
+
+    <string name="great_game">HARİKA! Sonraki adıma geçtin.</string>
+    <string name="start_again">Yeniden Başla</string>
+    <string name="your_score">Skorun: </string>
+    <string name="shopping_list">Alışveriş Listesi</string>
+    <string name="okey">Tamam</string>
+    <string name="check">Kontrol Et</string>
+    <string name="game_over_score">Oyun Bitti! Skor: </string>
+    <string name="notyetsetupreminder">Henüz bir hatırlatıcı kurmadınız</string>
+    <string name="lastreminder1">Son hatırlatıcınız burada görünür</string>
+
+
+
+    <string name="billremind1">Faturalarım</string>
+    <string name="billgraphic">Grafik</string>
+
+
+
+    <string name="new_updates1">3 günlük deneme süresi eklendi(herhangi bir bilgi gerektirmez)</string>
+    <string name="new_updates2">Yeni oyunlar eklendi</string>
+    <string name="new_updates3">Bazı tasarımlar güncellendi</string>
+    <string name="new_updates4">Fatura hatırlatıcı eklendi</string>
+    <string name="new_updates5">Buglar düzeltildi</string>
+
+
+    <string name="expiredtrial">Deneme süreniz doldu :)</string>
+    <string name="trialstart">3 gün deneme süren başladı :)</string>
+
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Advice.CalenderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/backButtonCalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/green_arrow_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="20dp"
+                android:textSize="22sp"
+                android:text="@string/planner"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/br_firma_bold"
+                />
+
+
+        </LinearLayout>
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:theme="@style/CustomCalendarMonth"
+            android:dateTextAppearance="@style/CustomCalendarDay"
+            android:weekDayTextAppearance="@style/CustomCalendarWeek"
+            android:background="#fff"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/noteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textSize="18sp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerNotes"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

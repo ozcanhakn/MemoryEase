@@ -1,0 +1,541 @@
+<resources>
+    <string name="app_name">Memory\nEase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="addReminderText">Add a reminder</string>
+    <string name="myLastReminder">My Last Reminder</string>
+
+
+    //Upgrade For pro features Screen
+    <string name="bestDeal">BEST\nDEAL</string>
+
+    <string name="thanks_settings">Thanks for using and join us MemoryEase</string>
+
+    <string name="time_format">Time Format</string>
+
+
+    <string name="aerobic_text1">Aerobic exercise is particularly good for the brain, so choose activities that keep your blood pumping. In general, anything that is good for your heart is great for your brain.</string>
+    <string name="aerobic_text2">Does it take you a long time to clear out the sleep fog when you wake up? If so, you may find that exercising in the morning before you start your day makes a big difference. In addition to clearing away the cobwebs, it also primes you for learning throughout the day.</string>
+    <string name="aerobic_text3">Physical activities that require hand-eye coordination or complex motor skills are particularly beneficial for brain building.</string>
+    <string name="aerobic_text4">Exercise breaks can help you get past mental fatigue and afternoon slumps. Even a short walk or a few jumping jacks can be enough to reboot your brain.</string>
+
+
+    <string name="meditation_text1">The practice of meditation may positively affect your health in many ways.</string>
+    <string name="meditation_text2">It is relaxing and soothing, and has been found to reduce stress and pain, lower blood pressure and even improve memory (8Trusted Source).</string>
+    <string name="meditation_text3">In fact, meditation has been shown to increase gray matter in the brain. Gray matter contains neuron cell bodies.</string>
+    <string name="meditation_text4">As you age, gray matter declines, which negatively impacts memory and cognition.</string>
+    <string name="meditation_text5">Meditation and relaxation techniques have been shown to improve short-term memory in people of all ages, from people in their 20s to older adults.</string>
+    <string name="meditation_text6">For example, one study showed that Taiwanese college students who engaged in meditation practices like mindfulness had significantly better spatial working memory than students who did not practice meditation.</string>
+    <string name="meditation_text7">Spatial working memory is the ability to hold and process information in your mind about the positions of objects in space.</string>
+
+    <string name="sleep_text1">Lack of proper sleep has been associated with poor memory for quite some time.</string>
+    <string name="sleep_text2">Sleep plays an important role in memory consolidation, a process in which short-term memories are strengthened and transformed into long-lasting memories.</string>
+    <string name="sleep_text3">Research shows that if you’re sleep deprived, you could be negatively impacting your memory.</string>
+    <string name="sleep_text4">For example, one study looked at the effects of sleep in 40 children between ages 10 and 14 years.</string>
+    <string name="sleep_text5">One group of children was trained for memory tests in the evening, then tested the following morning after a night’s sleep. The other group was trained and tested on the same day, with no sleep between training and testing.</string>
+    <string name="sleep_text6">The group that slept between training and testing performed 20% better on the memory tests.</string>
+    <string name="sleep_text7">Another study found that nurses working the night shift made more mathematical errors and that 68% of them scored lower on memory tests compared with nurses working the day shift.</string>
+    <string name="sleep_text8">Health experts recommend adults get between 7 and 9 hours of sleep each night for optimal health.</string>
+
+    <string name="question_meditation">Meditation isn’t just good for your body it’s also good for your brain. Research suggests meditation may increase gray matter in the brain and improve spatial working memory.</string>
+    <string name="question_exercise"> Exercise brings incredible benefits for your whole body, including your brain. Even moderate exercise for short periods has been shown to improve cognitive performance, including memory, across all age groups.</string>
+    <string name="question_sleep">Studies have consistently associated sufficient sleep with better memory performance. Sleep helps consolidate memories. You’re also likely to perform better on memory tests if you’re well rested than if you’re sleep deprived.</string>
+    <string name="question_crossword">Games that challenge your brain may help you strengthen your memory and may even reduce the risk of dementia.</string>
+
+
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+
+    <string name="games">GAMES</string>
+
+
+    <string name="advice">Advice</string>
+    <string name="aerobic_exercise">AEROBIC EXERCISE</string>
+    <string name="puzzles">PUZZLES</string>
+    <string name="go_to_games">GO TO GAMES</string>
+    <string name="meditation">MEDITATION</string>
+    <string name="sleep">SLEEP</string>
+    <string name="use_reminder">USE REMINDER</string>
+
+    <string name="email_upper_text_question">have a question about the subscriptions, or want to request a new features?</string>
+
+    <string name="your_text_reference">Take a peek at our FAQ</string>
+
+    <string name="quick_answers">for quick, answers, or</string>
+    <string name="quick_answers1">fill out the form below and we all get back to you soon.</string>
+    <string name="whats_your_email_desc">We will not use it for evil (or anything other than writing you back.)</string>
+
+    <string name="upgrade_pro_advice_info">Various recommendations to prevent short and long term forgetfulness. Various puzzles and more.</string>
+    <string name="upgrade_pro_statistic_info">Access detailed statistics of the reminders you set weekly, monthly, yearly (how many reminders you set in which time intervals, in which categories, etc.) and much more</string>
+    <string name="upgrade_pro_notiandwitgets">Set unlimited reminders, customize reminder sound, icon and more. Ability to set reminders via widget without opening the app.</string>
+    <string name="theme_color">Want your app to stay a certain color? we got you. Flip switch and keep it exactly how you like it</string>
+    <string name="much_appreciation">We\'re a tiny indie developer entirely by our sweet customers. Your upgrade will help us continue to improve MemoryEase long into the future--thanks so much for your support!</string>
+    <string name="go_top">Go back up to upgrade</string>
+
+    <string name="abouttheteam">About the Team</string>
+    <string name="heyhihello">Hey Hi Hello!</string>
+    <string name="abouttheteam1">We\'re Hakan Ozcan and Mustafa Yildiz the crew behind MemoryEase. Here\'s the tale of how it came to be, and our philosophy for building it.</string>
+    <string name="abouttheteam2">In fact, we suffered from forgetfulness many times during the day. When we thought about how we could prevent this problem, we actually laid the foundations of MemoryEase.</string>
+    <string name="abouttheteam3">We thought we could do better by making something obvius: an app that showed only the most important info in one straightforward page.</string>
+    <string name="abouttheteam4">We looked at various apps, searched for advice, but nothing was enough</string>
+    <string name="abouttheteam5">We spent a long time testing, gathering information, getting advice from people who suffered from the same problem, and after a long development process, MemoryEase was born</string>
+    <string name="abouttheteam6">We launched version 1.0 for Android in late 2023.</string>
+
+
+    <string name="question_by_of_the_weeek">A statistic of which day you set the most reminders. It can be an indicator of which days you might be more forgetful.</string>
+    <string name="question_by_of_the_time">A statistic on which time you set reminders the most. It can be an indicator of which hours you might be more forgetful.</string>
+
+
+    <string name="memory_game1">Shuffle Card Memory Game</string>
+    <string name="start_game_65">Start Game 6x5</string>
+    <string name="start_game_54">Start Game 5x4</string>
+    <string name="start_game3">Start Match 3</string>
+
+    <string name="sudoku">Sudoku</string>
+    <string name="norwegian_description">A picture of a norwegian flag</string>
+    <string name="british_description">A picture of a british flag</string>
+
+    <string name="new_game">Start New Game</string>
+    <string name="add_new_board">Add New Board</string>
+    <string name="continue_new_board">Continue</string>
+    <string name="successful_new_board">New board saved</string>
+    <string name="fail_new_board">Failed to save new board</string>
+    <string name="show_instructions">Show instructions</string>
+    <string name="choose_language">Choose language:</string>
+
+    <string name="instructions">Instructions</string>
+    <string name="instructions_1">1. In Sudoku it is intended to place all the remaining pieces on the board. The numbers range from 1 to 9 (in 9x9 Sudoku).</string>
+    <string name="instructions_2">2. The board is separated into several squares, and inside each of them it is only allowed to place one of each number.</string>
+    <string name="instructions_3">3. It is only allowed to place one of each number at each row, both horizontal and vertical.</string>
+    <string name="go_back_button">Go back</string>
+
+    <string name="choose_difficulty">Choose difficulty:</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="start_game">Start Game</string>
+    <string name="choose_number">Choose number</string>
+    <string name="choose_a_number">Choose number to place:</string>
+    <string name="place_number">Place number</string>
+    <string name="piece_unsure">Mark piece as unsure</string>
+    <string name="remove_piece">Remove piece</string>
+    <string name="start_piece_error">Can not change start piece</string>
+    <string name="check_board">Check board</string>
+    <string name="board_correct">Board is correct</string>
+    <string name="board_incorrect">Board is not correct</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+    <string name="email_support">Email Support</string>
+    <string name="welovetoherfrom">We\'d love to hear from you!</string>
+    <string name="Whatsyourname">What\'s your name?</string>
+    <string name="whatyouremail">What\'s your email?</string>
+    <string name="whatsup">What\'s up?</string>
+    <string name="helloyoucanwrite">Hello! You can write the message you want to convey here.</string>
+    <string name="sendyourmessage">Send your message</string>
+
+
+    <string name="sign_out">Sign Out</string>
+    <string name="memoryease_updates">MemoryEase Updates</string>
+    <string name="new_updates">Hello friends! We will share what\'s new in the new versions of MemoryEase on this page</string>
+    <string name="backto_main">Back to the main screen</string>
+
+
+    <string name="welcomeback">Welcome Back</string>
+    <string name="continuee">Continue</string>
+    <string name="donthaveanaccount">Don\'t have an account?</string>
+    <string name="signup">Sign up</string>
+    <string name="signupmail">Sign up with email</string>
+    <string name="continuegoogle">Continue with Google</string>
+    <string name="login">Log in</string>
+    <string name="funclub">MemoryEase Fun Club</string>
+
+
+    <string name="upgradeforpro">Upgrade for Pro Features</string>
+    <string name="unlock_exclusive_bonus">Unlock exclusive bonus features!\nJoin the MemoryEase fan club"</string>
+    <string name="hereiseverythins">Here\’s everything you get…</string>
+    <string name="statistic">Statistic</string>
+    <string name="notiandwidget">Notification and Widgets</string>
+    <string name="themecolor1">Theme Color</string>
+    <string name="muchappreci">Much Appreciation</string>
+    <string name="monthly">monthly</string>
+    <string name="annualy">annually</string>
+    <string name="onetime">one time</string>
+
+
+    <string name="complete">Complete</string>
+    <string name="notyetcompleted">Reminders not yet completed…</string>
+    <string name="seeall">See All</string>
+
+
+    <string name="remindertitle">Reminder Title</string>
+    <string name="reminder_desc">Reminder Description</string>
+    <string name="setlocation">SET LOCATION</string>
+    <string name="settime">SET TIME</string>
+    <string name="time">Time: </string>
+    <string name="date">Date: </string>
+    <string name="remind_intervals">Remind at certain intervals</string>
+    <string name="select_category">Select Category</string>
+    <string name="click">Click</string>
+    <string name="set_reminder">SET REMINDER</string>
+
+
+    <string name="howtosetreminder">How to Set a Reminder?</string>
+
+    <string name="bytime">by Time</string>
+    <string name="bylocation">by Location</string>
+
+    <string name="bytime1">If you only want to set a reminder for a specific time, you need to select the time and date.(no need to select the location)</string>
+    <string name="bylocation1">If you want to remember to reach a specific location, just set a reminder by location (no need to select time and date).</string>
+    <string name="bylocation2">Reminder works when 1 km distance remains.</string>
+
+
+    <string name="remindmedistance">Remind me when I\'m within</string>
+    <string name="remindmedistance1">kilometers of the location.</string>
+
+    <string name="howitworks">How it works</string>
+    <string name="featuresreq">Feature Requests</string>
+
+    <string name="widgetsfaqs">Widgets</string>
+    <string name="upgradesbillings">Upgrades and Billings</string>
+    <string name="cancellings">Canceling</string>
+    <string name="faqstitle">FAQs</string>
+
+    <string name="howcanbylocation">How do I set an reminder by location?</string>
+    <string name="answerhowcanbylocation">When you click on the Add reminder button on the main screen, you can select the address you want from the Location box. (You do not need to select time and date.)</string>
+
+    <string name="questionmyselfcategory">When we set reminders, can we define\n our own category?</string>
+    <string name="answermyselfcategory">Not at the moment. But if you let us know,\n we can add this feature.</string>
+    <string name="questionaccessdata">Can the app access or save any data on\n my phone?</string>
+    <string name="answeraccessdata">Absolutely not.</string>
+
+
+    <string name="questionmyselfvoice">Will we be able to add our own voices to\n the reminders?</string>
+    <string name="answermyselfvoice">Probably yes.</string>
+    <string name="questionforum">When is the forum feature coming?</string>
+    <string name="answersforum">Probably one or two releases later.</string>
+
+    <string name="reminderbylocation_question">When I set a reminder by location, do I need to have the location turned on, on my device?</string>
+    <string name="reminderbylocation_answer">Yes for now.</string>
+
+    //Widgets
+    <string name="textwidget">Widget</string>
+    <string name="widgetquestion1">How do I add a home screen widget on my device?</string>
+    <string name="widgetanswers1">Press and hold any icon on your home screen until all icons go into "wiggle mode". You will then see a button called widgets on the home screen. Click on the widgets button and you will see MemoryEase among the options.</string>
+
+
+    //Upgrade And Billing
+    <string name="textupgradebilling">Upgrade and Billing</string>
+    <string name="upgradeandbillingquestion1">If I pay to upgrade MemoryEase on my device. Can I use the paid version on my other device.</string>
+    <string name="upgradeandbillinganswers1">You can definitely use it with your existing account.</string>
+    <string name="upgradeandbillingquestion2">Can I share my MemoryEase subscription with other people in my family?</string>
+    <string name="upgradeandbillinganswers2">Of course, but for now, doing so may cause the alarm to go off when you don\'t want it to.</string>
+
+
+    // Subs Cancelling
+    <string name="howcancel1question">How do I cancel my subscription?</string>
+
+
+    <string name="reminderintervals">Remind at certain intervals</string>
+
+
+    <string name="ok">Complete</string>
+
+
+    <string name="lastreminder">Previous Reminders</string>
+
+    <string name="p">SUNDAY</string>
+    <string name="m">MONDAY</string>
+    <string name="t">TUESDAY</string>
+    <string name="w">WEDNESDAY</string>
+    <string name="t1">THURSDAY</string>
+    <string name="f">FRIDAY</string>
+    <string name="s">SATURDAY</string>
+
+
+    <string name="sunday">S</string>
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">T</string>
+    <string name="friday">F</string>
+    <string name="saturday">S</string>
+
+    <string name="sunday1">Su</string>
+    <string name="monday1">Mo</string>
+    <string name="tuesday1">Tu</string>
+    <string name="wednesday1">We</string>
+    <string name="thursday1">Th</string>
+    <string name="friday1">Fr</string>
+    <string name="saturday1">Sa</string>
+
+
+    <string name="selectdate">Select Reminder Date</string>
+
+    <string name="delete_reminder">Reminder successfully deleted</string>
+    <string name="unable_reminder">Unable to delete reminder</string>
+
+
+    <string name="not_completed">not completed</string>
+    <string name="completed">Completed</string>
+
+    <string name="by_time">BY TIME</string>
+    <string name="by_location">BY LOCATION</string>
+    <string name="previous_reminder">PREVIOUS REMINDER</string>
+
+
+    <string name="finance">Finance: </string>
+    <string name="Shopping">Shopping: </string>
+    <string name="education">Education: </string>
+    <string name="Personal">Personal: </string>
+    <string name="Social">Social: </string>
+    <string name="Job">Job: </string>
+    <string name="Other">Other: </string>
+
+    <string name="week">Week</string>
+    <string name="Month">Month</string>
+    <string name="Annual">Annual</string>
+
+    <string name="howmanyalarm">How many reminders in which categories</string>
+    <string name="totalnumberreminder">Total Number of Reminders Set</string>
+    <string name="bydayweek">BY DAY OF THE WEEK</string>
+    <string name="byhourday">BY HOUR OF THE DAY</string>
+    <string name="dybyregular">DAYS BY REGULAR REMINDER</string>
+
+
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanned_data">Scanned Data</string>
+    <string name="audio_recorder">Audio Recorder</string>
+
+    <string name="play_recording">Play Recording</string>
+    <string name="status">Status</string>
+
+    <string name="voice_recorder">Voice Recorder</string>
+    <string name="play">Play</string>
+    <string name="delete">Delete</string>
+    <string name="records">Records</string>
+
+
+    <string name="gotometitation">To Go to Voices</string>
+    <string name="rahatlatıcıses">Soothing Sounds</string>
+
+
+    <string name="save">SAVE</string>
+    <string name="change">Changed</string>
+    <string name="delete1">Deleted</string>
+    <string name="selecteddate">Selected Date: </string>
+    <string name="planner">PLANNER</string>
+    <string name="viewmore">view more</string>
+    <string name="less">less</string>
+    <string name="add_a_planner">PLANNER</string>
+    <string name="sucadded">Successfully Added</string>
+    <string name="failadd">Failed to Add</string>
+
+
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="start_playing">Start Playing</string>
+    <string name="stop_playing">Stop Playing</string>
+
+    //Location
+    <string name="Whatareminderbylocationdoes">What a reminder by location does?</string>
+    <string name="Whatareminderbylocationdoes1">When you select a location you want to be reminded of,\nMemoryEase will remind you of the selected\nlocation when there is only 1 kilometer left to\nthe selected location.</string>
+    <string name="Whatareminderbylocationdoes2">Of course, you need to have your location\nturned on in the background of your device.</string>
+
+
+    <string name="reminderbylocation10">Reminder by Location</string>
+    <string name="reminderbylocation11">When you approach your chosen location,don\'t worry if you forget!\nMemoryEase will remind you.</string>
+
+
+    <string name="upgrade_info_toast">In 1 week two plans have been added, if you want you can join MemoryEase FunClub and enjoy unlimited rights :)</string>
+    <string name="upgrade_info_reminder_toast">In 1 week two reminders have been added, if you want you can join MemoryEase FunClub and enjoy unlimited rights :)</string>
+    <string name="reminderinstalled">Reminder successfully installed</string>
+    <string name="remindernotinstalled">Error installing reminder</string>
+
+
+    <string name="please_enter_mail">Please enter your e-mail address…</string>
+    <string name="please_enter_password">Please enter your password…</string>
+    <string name="loginsucc">Login is Successful !</string>
+    <string name="loginfailed">Login Failed ! Try again later</string>
+    <string name="mailalreadyexist">This email address is already registered.</string>
+    <string name="passlong">The password must be at least 8 characters long.</string>
+    <string name="passlong1">The password must contain at least one uppercase letter, one lowercase letter and one number.</string>
+    <string name="sucregis">Successfully registered!</string>
+    <string name="sucfailed">Failed to register, try again later</string>
+    <string name="enterrecordname">Enter recording name</string>
+    <string name="pleaseentervalidname">Please enter a valid recording name</string>
+
+
+    //Settings
+
+    <string name="settings">Settings</string>
+    <string name="displayop">DISPLAY OPTIONS</string>
+    <string name="exclusiveextras">EXCLUSIVE EXTRAS</string>
+    <string name="haveaquestionorneedhelp">HAVE A QUESTION OR NEED HELP?</string>
+    <string name="afewothertidbidts">A FEW OTHER TIDBITS</string>
+
+    <string name="appearance">Appearance</string>
+    <string name="jointhememoryeasefunclub">Join the MemoryEase Fan Club</string>
+    <string name="accessstatistic">Statistic</string>
+    <string name="accessadvice">Advice</string>
+    <string name="accessforum">MemoryEase Forum</string>
+
+    <string name="faqs">FAQs</string>
+    <string name="emailsupport">Email Support</string>
+    <string name="ratethisapp">Rate This App</string>
+
+    <string name="protectingyourprivacy">Protecting Your Privacys</string>
+    <string name="whatsnew">What\'s New? (1.2023.0.1)</string>
+
+    <string name="signot">Sign Out</string>
+
+
+    <string name="comingsoon">Coming Soon</string>
+    <string name="nopremiuminfo">Premium Information Not Found</string>
+    <string name="premiumtimestampinfo">Your Premium Expired, You can renew if you wish :)</string>
+
+    //Navi Bar
+    <string name="barmain">Main</string>
+
+
+    <string name="select">Select</string>
+
+
+    <string name="voiceselected">Voice Selected </string>
+    <string name="sleeptracking">SLEEP TRACKING</string>
+    <string name="wakeup">END SLEEP</string>
+
+    <string name="totaltodaysleep">Total time you slept today:</string>
+    <string name="totalsleepstatistic">You can see your sleep statistics, in the statistics tab.</string>
+
+    <string name="sleeptracker1">Sleep Tracker</string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="forgotemailsent">Password reset email has been sent.</string>
+    <string name="forgotemailnotsent">Failed to send password reset email:</string>
+    <string name="entermail">Please enter your e-mail address</string>
+
+
+    //Introduction
+    <string name="great">Great!</string>
+    <string name="yovefirstalarm">You\'ve Set Your First Alarm.</string>
+    <string name="done">DONE</string>
+    <string name="selectcategory_introduction">It is important to keep\ntrack of your statistics.</string>
+    <string name="selectday_introduction">OR YOU CAN CHOOSE THE DAY</string>
+    <string name="selectday_introduction1">Selecting a day instead of\na date ensures that the\nreminder runs on the days\nyou regularly select.</string>
+    <string name="chooseadate_introduction">CHOOSE A DATE</string>
+    <string name="choosedate_introduction1">Select the day of your\nreminder. Note: Select a day if\nyou want to be reminded to select\nit regularly.</string>
+    <string name="chooseatime_introduction">CHOOSE A TIME</string>
+    <string name="chooseatime_introduction1">Set the hour and minute\nof your reminder.</string>
+    <string name="selectadesc_introduction">Annotate your Reminder</string>
+    <string name="addatitle">ADD TITLE</string>
+
+    <string name="upgradeandbillinganswers3">https://play.google.com/store/account/subscriptions or E-mail Support.</string>
+
+
+    <string name="upgradeinfo1">A subscription is not required to use MemoryEase\'s basic features. Monthly subscriptions will be billed $0.99 per month until cancelled. Annual subscriptions will be $5.99 per year until cancelled. One time subscriptions will be billed $29.99 one time. You can cancel a monthly or annual subscription any time by following this link: https://play.google.com/store/account/subscriptions. Thank you for your support.</string>
+
+    <string name="monthprice">$0.99</string>
+    <string name="annualprice">$5.99</string>
+    <string name="onetimeprice">$39.99</string>
+
+    <string name="billreminder">Bill Reminder</string>
+    <string name="billtype">Bill Type</string>
+    <string name="description">Description</string>
+    <string name="billfee">Bill Fee</string>
+    <string name="automatic_or_manuel">Automatic or Manuel</string>
+    <string name="sucessfull_estab">Successfully Established</string>
+    <string name="make_a_choice">Make a choice</string>
+    <string name="mark">$</string>
+
+
+    <string name="content">With the idea of imparting programming
+      knowledge, Mr. Sandeep Jain, an IIT Roorkee alumnus started a
+      dream, GeeksforGeeks. Whether programming excites you or you feel
+      stifled, wondering how to prepare for interview questions or how to
+      ace data structures and algorithms, GeeksforGeeks is a one-stop solution.
+      With every tick of time, we are adding arrows in our quiver. From articles
+      on various computer science subjects to programming problems for practice,
+      from basic to premium courses, from technologies to entrance examinations,
+      we have been building ample content with superior quality. In a short span,
+      we have built a community of 1 Million+ Geeks around the world, 20,000+
+      Contributors and 500+ Campus Ambassadors in various colleges across the nation.
+      Our success stories include a lot of students who benefitted in their placements
+      and landed jobs at tech giants. Our vision is to build a gigantic network of
+      geeks and we are only a fraction of it yet.
+  </string>
+
+    <string name="total">Total</string>
+
+    <string name="memoryherodesc">Tap on the pictures to reduce\nforgetfulness.Don\'t click on the same\npicture again, or it\'s game over.\nOn the 3rd correct click,\npress the CONTINUE button and move on!</string>
+    <string name="memoryherodesc1">To reduce forgetfulness, drag the items\non your shopping list and put\nthem in the cart.Remember, you will only\nput the items on the list in the cart.\n3 Watch the time!</string>
+
+    <string name="playy">PLAY</string>
+
+
+    <string name="times_up">Time\'s up!</string>
+
+
+    <string name="banana">Banana</string>
+    <string name="apple">Apple</string>
+    <string name="orange">Orange</string>
+    <string name="mango">Mango</string>
+    <string name="grapes">Grapes</string>
+    <string name="pineapple">Pineapple</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="watermelon">Watermelon</string>
+    <string name="biscuit">Biscuit</string>
+    <string name="drink">Drink</string>
+    <string name="rice">Rice</string>
+    <string name="almond">Almond</string>
+    <string name="olive_oil">Olive Oil</string>
+    <string name="pasta">Pasta</string>
+    <string name="milk">Milk</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="peanut">Peanut</string>
+    <string name="nut">Nut</string>
+    <string name="beans">Beans</string>
+    <string name="shampoo">Shampoo</string>
+    <string name="toothpaste">Toothpaste</string>
+    <string name="flour">Flour</string>
+    <string name="cheese">Cheese</string>
+    <string name="coffee">Coffee</string>
+
+
+    <string name="great_game">GREAT! You\'ve moved on to the next step.</string>
+    <string name="start_again">Start Again</string>
+    <string name="your_score">Your Score: </string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="okey">Okey</string>
+    <string name="check">Check</string>
+    <string name="game_over_score">Game Over! Score: </string>
+    <string name="notyetsetupreminder">You have not yet set up a reminder</string>
+    <string name="lastreminder1">Your last reminder appears here</string>
+
+    <string name="billremind1">My Bills</string>
+    <string name="billgraphic">Graphic</string>
+
+
+    <string name="new_updates1">Added 3-day trial period (no information required)</string>
+    <string name="new_updates2">New games added</string>
+    <string name="new_updates3">Some designs updated</string>
+    <string name="new_updates4">Invoice reminder added</string>
+    <string name="new_updates5">Bugs fixed</string>
+
+
+    <string name="expiredtrial">Your trial period has expired :)</string>
+    <string name="trialstart">Your 3-day trial period has started</string>
+
+
+
+
+</resources>

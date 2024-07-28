@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardFirstReminder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="450dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    app:cardMaxElevation="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textTopMemoryEaseJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/br_firma_bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:text="MemoryEase'e Katıl!"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <RelativeLayout
+            android:id="@+id/unlockExclusiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/fan_club_features_button"
+            app:layout_constraintTop_toBottomOf="@id/textTopMemoryEaseJoin"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:fontFamily="@font/br_firma_semibold"
+                android:layout_centerInParent="true"
+                android:text="@string/unlock_exclusive_bonus"/>
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintTop_toBottomOf="@id/unlockExclusiveButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/personUnsPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/unsplash_subs"/>
+
+            <TextView
+                android:id="@+id/textViewUns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:fontFamily="@font/br_firma_medium"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:text="Sınırsız Hatırlatıcı Kurabilirsiniz"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/relativeSubsNot"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/br_firma_bold"
+            android:text="Tüm Özellikleri Görmek İçin"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeSubsNot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/okeyButtonNotSubs"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/continue_button_createaccount_bg"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp">
+
+
+
+                <TextView
+                    android:id="@+id/textClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="TIKLA"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/br_firma_medium"
+                    android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/shineImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shine"
+                android:layout_marginStart="-50dp"/>
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
